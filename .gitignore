@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Django
+content_hub/db.sqlite3
+content_hub/media/
+content_hub/static/
+*.log
+
+# Next.js
+content_hub_frontend/.next/
+content_hub_frontend/node_modules/
+content_hub_frontend/.env.local
+content_hub_frontend/out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Session files (resume, images, scripts — not part of the project)
+*.docx
+*.pdf
+*.jpg
+*.png
+resume_ats.js
+page-*.jpg
+
+# System / home directory dotfiles
+.cache/
+.config/
+.npm/
+.npm-global/
+.pki/
+.ssh/
+.gitconfig
+.wget-hsts
+.claude/
